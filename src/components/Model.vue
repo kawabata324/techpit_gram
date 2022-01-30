@@ -14,8 +14,6 @@ const model = ref(null);
 const onReady = () => {
     renderer.value.onBeforeRender(() => {
     model.value.o3d.rotation.x += 0.01;
-    model.value.o3d.matrix
-    console.log(model.value.o3d.children[0])
   });
 };
 

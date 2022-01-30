@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import ThreeTest from "../components/ThreeTest.vue";
-import Model from "../components/Model.vue";
+import ThreeTest from "@/components/ThreeTest.vue";
+import Model from "@/components/Model.vue";
 
 const routes = [
   {
